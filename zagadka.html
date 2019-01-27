@@ -1,0 +1,67 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+var answer1 = 'замок';
+var userAnswer1 = prompt ('Не лает, не кусает, а в дом не пускает. Что это?');
+var maxTry1 = 3;
+
+for (var tryCount1 = 1; tryCount1 < maxTry1; tryCount1++) {
+	if (userAnswer1 == answer1) {
+		alert ('Правильно! Поздравляем!');
+		break;
+	} else if (userAnswer1 != answer1) {
+		alert ('К сожалению, Вы ошиблись');
+	}
+	userAnswer1 = prompt ('Попробуйте заново ввести ответ. У Вас осталось ' + (maxTry1 - tryCount1) + ' попыток.');
+}
+if (tryCount1 == maxTry1) {
+	alert ('Вы проиграли!');
+}
+alert ('Приготовьтесь к следующей загадке')
+
+//загадка 2
+
+var answer2 = 'лампочка';
+var userAnswer2 = prompt ('Висит груша, нельзя скушать');
+var maxTry2 = 3;
+
+for (var tryCount2 = 1; tryCount2 < maxTry2; tryCount2++) {
+	if (userAnswer2 == answer2) {
+		alert ('Правильно! Поздравляем!');
+		break;
+	} else if (userAnswer2 != answer2) {
+		alert ('К сожалению, Вы ошиблись');
+	}
+	userAnswer2 = prompt ('Попробуйте заново ввести ответ. У Вас осталось ' + (maxTry2 - tryCount2) + ' попыток.');
+}
+if (tryCount2 == maxTry2) {
+	alert ('Вы проиграли!');
+}
+alert ('Приготовьтесь к следующей загадке')
+
+//загадка 3
+
+var answer3 = 'замок';
+var userAnswer3 = prompt ('Не лает, не кусает, а в дом не пускает. Что это?');
+var maxTry3 = 3;
+
+for (var tryCount3 = 1; tryCount3 < maxTry3; tryCount3++) {
+	if (userAnswer3 == answer3) {
+		alert ('Правильно! Поздравляем!');
+		break;
+	} else if (userAnswer3 != answer3) {
+		alert ('К сожалению, Вы ошиблись');
+	}
+	userAnswer3 = prompt ('Попробуйте заново ввести ответ. У Вас осталось ' + (maxTry3 - tryCount3) + ' попыток.');
+}
+if (tryCount3 == maxTry3) {
+	alert ('Вы проиграли!');
+}
+
+var countAnswer = new Function ('answer1, answer2, answer3, userAnswer1, userAnswer2, userAnswer3', return )
+
+
+
+
+
+</script>
